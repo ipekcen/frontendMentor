@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: Hanken Grotesk, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  width: 600px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 0px rgba(200, 199, 255, 0.2);
+}
+
+.blue-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  width: 50%;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  gap: 20px;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.circle-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.number-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-number {
+  font-size: 60px;
+}
+
+.second-number {
+  color: hsl(224, 30%, 27%);
+  opacity: 0.1;
+}
+
+.bottom-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.great-text {
+  font-size: 25px;
+}
+
+.gray-text {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  opacity: 0.7;
+}
+
+.right-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.summary-title {
+  font-size: 25px;
+}
+.score-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.score-line {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 87, 87, 0.1);
+  border-radius: 10px;
+}
+
+#text-1 {
+  color: hsl(0, 100%, 67%);
+}
+
+#text-2 {
+  color: hsl(39, 100%, 56%);
+}
+
+#text-3 {
+  color: hsl(166, 100%, 37%);
+}
+
+#text-4 {
+  color: hsl(234, 85%, 45%);
+}
+
+.score {
+  color: hsl(224, 30%, 27%);
+}
+
+.icon-text {
+  display: flex;
+  gap: 10px;
+}
+
+.continue-btn {
+  background-color: hsl(224, 30%, 27%);
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  border-radius: 40px;
+  color: hsl(0, 0%, 100%);
+}
